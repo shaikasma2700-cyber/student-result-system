@@ -1,28 +1,12 @@
-# student-result-system
-name = input("Enter student name: ")
+# Student Result System
 
-m1 = int(input("Enter marks for Subject 1: "))
-m2 = int(input("Enter marks for Subject 2: "))
-m3 = int(input("Enter marks for Subject 3: "))
-m4 = int(input("Enter marks for Subject 4: "))
-m5 = int(input("Enter marks for Subject 5: "))
+This is a Python program to calculate student total, average and grade.
 
-total = m1 + m2 + m3 + m4 + m5
-average = total / 5
+## Features
+- Takes marks for 5 subjects
+- Calculates total and average
+- Displays grade
 
-if average >= 90:
-    grade = "A"
-elif average >= 75:
-    grade = "B"
-elif average >= 60:
-    grade = "C"
-elif average >= 50:
-    grade = "D"
-else:
-    grade = "Fail"
-
-print("\n--- Student Result ---")
-print("Name:", name)
-print("Total Marks:", total)
-print("Average:", average)
-print("Grade:", grade)
+## How to run
+Run the file:
+python result.py
